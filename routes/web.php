@@ -22,4 +22,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('hello/{name?}',function ($name = 'Everybody'){
     return 'Hello, ' .$name;
-});
+}) ->name('hello.index');
