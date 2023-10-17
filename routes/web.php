@@ -18,4 +18,4 @@ Route::get('r1', function () {
 });
 Route::get('r2',function (){
     return view('welcome');
-})
+});
